@@ -1,0 +1,290 @@
+.topimg {
+  position: absolute;
+  width: 20%;
+  margin-left: 78%;
+  height: 60vh;
+  margin-top: -20px;
+}
+.bottomimg {
+  position: fixed;
+  width: 40%;
+  height: 60vh;
+  margin-top: -10px;
+}
+p{
+  text-align: center;
+}
+.pri{
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(232, 4%, 36%);
+  font-size: 20px;
+}
+.an_mo{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 1rem;
+}
+
+#icon{
+  cursor: pointer;
+}
+.annually{
+  color: hsl(234, 14%, 74%);
+  text-align: center;
+  font-size: 18px;
+}
+.toggle{
+  width: 60px;
+  border-radius: 15px;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: -10px;
+}
+.monthly{
+  color: hsl(234, 14%, 74%);
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.container{
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+  justify-content:first baseline;
+  border-radius: 15px;
+  height: 70vh;
+  
+  
+}
+
+.basic{
+  border: none;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+}
+
+.professional{
+  border: none;
+  width: 100%;
+  background: hsl(237, 63%, 64%);
+  height: auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: -4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+  
+}
+.master{
+  border: none;
+  width: 100%;
+  background-color: white;
+  height: auto;
+  margin-top: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  box-shadow: 0 0px 5px rgba(164, 164, 164, 0.991);
+}
+.head{
+  color: hsl(232, 4%, 36%);
+  text-align: center;
+}
+.head2{
+  
+  color: white;
+}
+.price{
+  color: hsl(232, 4%, 36%);
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.price2 {
+  
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+.sto{
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: hsl(232, 4%, 36%);
+}
+.sto2 {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: white;
+}
+
+.users{
+  color: hsl(232, 4%, 36%);
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+}
+.user2{
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 25px;
+  color: white;
+}
+
+.data{
+  color: hsl(232, 4%, 36%);
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 15px;
+}
+.data2 {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  padding-bottom: 15px;
+  color: white;
+}
+
+
+.btn{
+  width: 100%;
+  background: linear-gradient(to right, hsl(236, 72%, 79%) 0%,hsl(237, 63%, 64%));
+  border-radius: 5px;
+  height: 6vh;
+  margin-bottom: 5px ;
+  margin-left: 5px;
+  margin-right: 5px ;
+  border: none;
+  color: white;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+
+button:hover{
+  background: linear-gradient(to right, hsl(0, 0%, 100%) 0%,hsl(0, 0%, 100%));
+  color: hsl(236, 72%, 79%);
+  border: 1px solid black;
+}
+
+#btn{
+  color: hsl(236, 72%, 79%);
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  height: 6vh;
+  margin-bottom: 5px ;
+  margin-left: 5px;
+  margin-right: 5px ;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+
+#btn:hover{
+  background: linear-gradient(to right, hsl(237, 63%, 64%) 0%,hsl(237, 63%, 64%));
+  border: 1px solid black;
+
+}
+
+
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.2em;
+  height: 1.7em;
+}
+
+ 
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+ 
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(237, 54%, 70%);
+  border: 1px solid #adb5bd;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+ 
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  border-radius: 20px;
+  left: 0.27em;
+  bottom: 0.25em;
+  background-color: #ffffff;
+  transition: .4s;
+}
+
+ 
+
+input:checked + .slider {
+ 
+  background-color: hsl(237, 33%, 75%);
+}
+
+ 
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(237, 54%, 70%);
+}
+
+ 
+
+input:checked + .slider:before {
+  transform: translateX(1.4em);
+  background-color: #ffffff;
+  border: 1px solid #adb5bd;
+}
+
+
+@media (max-width: 375px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
